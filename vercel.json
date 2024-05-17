@@ -1,8 +1,10 @@
 {
+  "redirects": [
+],
   "rewrites": [
     {
-      "source": "/:path*",
-      "destination": "https://tripeasy.io/:path*"
+      "source": "/(.*)",
+      "destination": "https://tripeasy.io/$1"
     }
   ]
 }
